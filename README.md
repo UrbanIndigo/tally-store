@@ -35,4 +35,3 @@ npm install @rbxts/tally-store
 ## 🪪 License
 
 Tally Store is available under the MIT license. See the [LICENSE.md](LICENSE.md) file for more info.
-# tally-store
