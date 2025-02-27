@@ -13,6 +13,7 @@ type Pet = "dog" | "cat" | "rat";
 
 type PetTally = { [P in Pet]?: number };
 
+// create a tally store
 const pets = new TallyStore<PetTally>(
 	"PetTally",
 	(data) => {
@@ -22,6 +23,9 @@ const pets = new TallyStore<PetTally>(
 		defaultData: {},
 	},
 );
+
+// increment the amount of dogs collected by 1
+pets.increment("dog", 1);
 ```
 
 ## 📦 Installation

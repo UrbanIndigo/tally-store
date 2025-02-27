@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/tally-store",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A Roblox TypeScript library for managing in-game global counters stores.",
 	"main": "out/init.lua",
 	"scripts": {
