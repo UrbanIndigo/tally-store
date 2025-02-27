@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/tally-store",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A Roblox TypeScript library for managing in-game global counters stores.",
 	"main": "out/init.lua",
 	"scripts": {
@@ -43,6 +43,6 @@
 		"typescript": "^5.7.3"
 	},
 	"dependencies": {
-		"@rbxts/skilift": "^0.1.4"
+		"@rbxts/skilift": "^0.2.3"
 	}
 }

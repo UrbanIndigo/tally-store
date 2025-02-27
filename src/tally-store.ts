@@ -66,7 +66,7 @@ class TallyStore<T extends Record<string, number>> {
 	 * @param amount - The amount by which to increment the value.
 	 */
 	public increment(id: string, amount: number) {
-		this.session.patch(increment<T>, [id, amount] as LuaTuple<[string, number]>);
+		this.session.patch(increment<T>, [id, amount]);
 	}
 
 	/**
